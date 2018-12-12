@@ -9,6 +9,7 @@ RipStation scripts used by the Bentley Historical Library
   * [check_output_structure](https://github.com/bentley-historical-library/bhl_ripstation_utils#check_folder_structure): Check for RipStation output structure.
   * [check_thumbs_db_ds_store](https://github.com/bentley-historical-library/bhl_ripstation_utils#check_thumbs_db_ds_store): Check and DELETE Thumbs.DB and .DS_Store files in a directory.
   * [make_dips](https://github.com/bentley-historical-library/bhl_ripstation_utils#make_dips): Make DIPs from RipStation audio (.wav) and video (.iso) output.
+  * [unhide_folders](https://github.com/bentley-historical-library/bhl_ripstation_utils#unhide_folders): Unhide hidden sub-dirctories in a directoy.
 
 ---
 
@@ -80,4 +81,18 @@ Arguments:
 | --- | --- |
 | --src SRC | Input directory |
 | --dst DST | Output directory |
+| -h, --help | show this help message and exit |
+
+
+
+## unhide_folders
+Check and unhide hidden sub-dirctories in a directoy. 
+
+Usage: unhide_folders.py --src SRC
+
+Arguments:
+
+| Argument | Help |
+| --- | --- |
+| --src SRC | Input directory |
 | -h, --help | show this help message and exit |
